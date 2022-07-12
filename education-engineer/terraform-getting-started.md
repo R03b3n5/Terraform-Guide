@@ -70,7 +70,7 @@ Finally, destroy the infrastructure with the `destroy` command. Terraform will a
 $ terraform destroy
 ```
 
-You have successfully provisioned and destroyed an NGINX resource in Docker with Terraform. 
+You have successfully configured, provisioned, and destroyed an NGINX resource in Docker with Terraform. 
 
 ## Next Steps
 
