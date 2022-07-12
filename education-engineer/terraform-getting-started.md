@@ -1,6 +1,6 @@
 # Getting Started with Terraform
 
-Terraform is a popular language for defining and provisioning infrastructure as code (IaC). In this guide, you will learn how to configure your first Terraform IaC file.
+Terraform is a popular language for defining and provisioning infrastructure as code (IaC). In this guide, you will learn how to configure your first Terraform IaC file using the `init`, `apply`, and `destroy` commands.
 
 ## Prerequisites
 
