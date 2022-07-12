@@ -17,7 +17,7 @@ Next, create a file for your Terraform configuration code.
 $ touch main.tf
 ```
 
-Paste the following lines into the created file.
+Paste the following lines into the 'main.tf' file.
 
 ```hcl
 terraform {
