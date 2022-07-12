@@ -2,7 +2,17 @@
 
 Terraform is the most popular language for defining and provisioning infrastructure as code (IaC).
 
+## Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/)
+
+## Install Terraform
+
 To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the applicable binary package for your operating system or use your favorite package management system to install the Terraform package. The [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started) page has additional tutorials for installing Terraform.
+
+## Quick start configuration
+
+With Terraform installed, you can now provision an NGINX resource utilizing Docker.  
 
 After you install Terraform on your local machine, create a new directory and then navigate into it.
 
@@ -63,3 +73,10 @@ $ terraform destroy
 ```
 
 You have successfully provisioned and destroyed an NGINX resource with Terraform. 
+
+## Next Steps
+
+Next, you will build infrastructure in Amazon Web Services (AWS).
+
+- [AWS](https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started)
+
