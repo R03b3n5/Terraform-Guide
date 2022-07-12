@@ -12,7 +12,7 @@ Terraform is a popular language for defining and provisioning infrastructure as 
 
 With Terraform installed, you will now provision an NGINX resource in Docker.  
 
-After you install Terraform on your local machine, create a new directory using `mkdir` and then navigate into it using `cd` .
+Create a new directory using `mkdir` and then navigate into it using `cd` .
 
 ```shell
 $ mkdir terraform-demo
