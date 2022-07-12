@@ -4,11 +4,9 @@ Terraform is the most popular language for defining and provisioning infrastruct
 
 ## Prerequisites
 
-- [Docker](https://docs.docker.com/get-docker/)
+- The [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
+- [Docker](https://docs.docker.com/get-docker/) installed
 
-## Install Terraform
-
-To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the applicable binary package for your operating system or use your favorite package management system to install the Terraform package. The [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started) page has additional tutorials for installing Terraform.
 
 ## Quick start configuration
 
