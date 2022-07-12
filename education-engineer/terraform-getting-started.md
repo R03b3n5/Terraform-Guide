@@ -1,6 +1,6 @@
 # Getting Started with Terraform
 
-Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). In this guide, you will learn how to configure your first Terraform IaC file.
+Terraform is a popular language for defining and provisioning infrastructure as code (IaC). In this guide, you will learn how to configure your first Terraform IaC file.
 
 ## Prerequisites
 
@@ -57,7 +57,7 @@ Initialize Terraform with the `init` command to interact with Docker.
 $ terraform init
 ```
 
-Provision the NGINX resource with the `apply` command. Next, Terraform will ask for confirmation, type `yes` and press `ENTER`. The `apply` command may take up to a few minutes to run and will display a message indicating that the resource was created.
+Provision the NGINX resource with the `apply` command. Next, Terraform will ask for confirmation, type `yes` and press `ENTER`. The `apply` command may take a few minutes to run and will display a message indicating that the resource was created.
 
 ```shell
 $ terraform apply
@@ -74,7 +74,10 @@ You have successfully configured, provisioned, and destroyed an NGINX resource i
 
 ## Next Steps
 
-Next, you will build infrastructure in Amazon Web Services (AWS).
+Next, you can continue to build infrastructure in [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started) or you can start building in your chosen cloud platform.
 
-- [AWS](https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started)
+- [Amazon Web Services (AWS)](https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started)
+- [Google Cloud Platform (GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started)
+- [Microsoft Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started)
+- [Oracle Cloud Infrastructure (OCI)](https://learn.hashicorp.com/collections/terraform/oci-get-started)
 
