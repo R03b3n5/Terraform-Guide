@@ -4,7 +4,7 @@ Terraform is the most popular language for defining and provisioning infrastruct
 
 ## Prerequisites
 
-- The [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
+- The [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started) installed
 - [Docker](https://docs.docker.com/get-docker/) installed
 
 
