@@ -49,15 +49,15 @@ Initialize Terraform with the `init` command to interact with Docker.
 $ terraform init
 ```
 
-Provision the NGINX resource with the `apply` command. Next, Terraform will ask for confirmation, type 'yes' and press 'ENTER'.
+Provision the NGINX resource with the `apply` command. Next, Terraform will ask for confirmation, type `yes` and press `ENTER`.
 
 ```shell
 $ terraform apply
 ```
 
-The 'apply' command will take up to a few minutes to run and will display a message indicating that the resource was created.
+The `apply` command will take up to a few minutes to run and will display a message indicating that the resource was created.
 
-Finally, destroy the infrastructure with the 'destroy' command. Terraform will ask for confirmation, type 'yes' and press 'ENTER'. 
+Finally, destroy the infrastructure with the `destroy` command. Terraform will ask for confirmation, type `yes` and press `ENTER`. 
 
 ```shell
 $ terraform destroy
