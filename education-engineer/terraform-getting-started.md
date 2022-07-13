@@ -1,12 +1,18 @@
 # Getting Started with Terraform
 
-Terraform is the most popular langauge for defining and provisioning infrastructure as code (IaC).
+Terraform is a popular language for defining and provisioning infrastructure as code (IaC). In this guide, you will learn how to configure your first Terraform IaC file using the `init`, `apply`, and `destroy` commands.
 
-To install Terraform, simply visit [Terraform.io](https://www.terraform.io/downloads.html) and download the compressed binary application executable file deliverable for your platform, machine or environment on which you like to run code and do development.
+## Prerequisites
 
-With Terraform installed, let's dive right into it and start creating some infrastructure.
+- The [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started) installed
+- [Docker](https://docs.docker.com/get-docker/) installed
 
-Most guys find it easiest to create a new directory on there local machine and create Terraform configuration code inside it.
+
+## Quick start configuration
+
+With Terraform installed, you will now provision an NGINX resource in Docker.  
+
+Create a new directory using `mkdir` and then navigate into it using `cd`.
 
 ```shell
 $ mkdir terraform-demo
@@ -19,7 +25,7 @@ Next, create a file for your Terraform configuration code.
 $ touch main.tf
 ```
 
-Paste the following lines into the file.
+Paste the following lines into the `main.tf` file.
 
 ```hcl
 terraform {
@@ -45,24 +51,31 @@ resource "docker_image" "nginx" {
 }
 ```
 
-Initialize Terraform with the `init` command. The AWS provider will be installed. 
+Initialize Terraform with the `init` command so Terraform can interact with Docker.
 
 ```shell
 $ terraform init
 ```
 
-You shoud check for any errors. If it ran successfully, provision the resource with the `apply` command.
+Provision the NGINX resource with the `apply` command. Next, Terraform will ask for confirmation, type `yes` and press `ENTER`. The `apply` command may take a few minutes to run and will display a message indicating that the resource was created.
 
 ```shell
 $ terraform apply
 ```
 
-The command will take up to a few minutes to run and will display a message indicating that the resource was created.
-
-Finally, destroy the infrastructure.
+Finally, destroy the infrastructure with the `destroy` command. Terraform will ask for confirmation, type `yes` and press `ENTER`. 
 
 ```shell
 $ terraform destroy
 ```
 
-Look for a message are the bottom of the output asking for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it had created earlier.
+You have successfully configured, provisioned, and destroyed an NGINX resource in Docker with Terraform. 
+
+## Next Steps
+
+Next, you can continue to build infrastructure in [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started) or you can start building in your chosen cloud platform.
+
+- [Amazon Web Services (AWS)](https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started)
+- [Google Cloud Platform (GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started)
+- [Microsoft Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started)
+- [Oracle Cloud Infrastructure (OCI)](https://learn.hashicorp.com/collections/terraform/oci-get-started)
